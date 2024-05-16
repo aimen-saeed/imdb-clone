@@ -10,7 +10,7 @@ export default async function Home({ searchParams }) {
 
   return (
     <div>
-      <MovieData movies={data} />
+      <MovieData movies={data} searchParams={searchParams} />
     </div>
   );
 }

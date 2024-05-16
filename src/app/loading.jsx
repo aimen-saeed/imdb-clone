@@ -1,6 +1,7 @@
+import Image from "next/image";
 
 export default function loading() {
   return (
-    <img src="spinner.svg" alt="loading..."></img>
-  )
+    <Image src="/spinner.svg" alt="loading..." width={300} height={200} className="w-6xl mx-auto"></Image>
+  );
 }
