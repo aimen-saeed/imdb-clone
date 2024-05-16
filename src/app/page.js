@@ -1,7 +1,5 @@
 import MovieData from "@/components/MovieData";
 
-const API_KEY = process.env.API_KEY;
-
 export default async function Home({ searchParams }) {
   const genre = searchParams.genre || "family";
   const res = await fetch(`https://api.sampleapis.com/movies/${genre}`);

@@ -22,7 +22,7 @@ export default async function MoviePage({ params }) {
             alt="no poster"
             width={500}
             height={200}
-            style={{maxWidth:'100%', height:'100%'}}
+            style={{ maxWidth: "100%", height: "100%" }}
           ></Image>
         )}
         <div className="p-2">
@@ -50,7 +50,7 @@ export default async function MoviePage({ params }) {
             dark underbelly of the city where nothing is as it seems and danger
             lurks around every corner.
           </p>
-          <span className="text-lg mb-3 font-bold" >Duration: 1hr 30m</span>
+          <span className="text-lg mb-3 font-bold">Duration: 1hr 30m</span>
         </div>
       </div>
     </div>
