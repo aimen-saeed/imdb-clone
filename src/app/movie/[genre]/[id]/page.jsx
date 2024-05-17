@@ -18,7 +18,7 @@ export default async function MoviePage({ params }) {
           ></Image>
         ) : (
           <Image
-            src="poster-not-found.jpg"
+            src="/poster-not-found.jpg"
             alt="no poster"
             width={500}
             height={200}
